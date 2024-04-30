@@ -1,0 +1,187 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr829_camdalumnis",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr829_camdalumni",
+    "Name": "CAMD Alumni",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cr829_camdalumni_AsyncOperations": "System Jobs",
+      "cr829_camdalumni_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr829_camdalumni_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr829_camdalumni_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr829_camdalumni_ProcessSession": "Process Sessions",
+      "cr829_camdalumni_SyncErrors": "Sync Errors",
+      "cr829_camdalumniid": "CAMD Alumni",
+      "cr829_camddepartments": "CAMD_DEPTS",
+      "cr829_degree": "DEGREE",
+      "cr829_firstconcentration": "FIRST_CONCENTRATION",
+      "cr829_graduationdate": "GRAD_DATE",
+      "cr829_graduationterm": "GRAD_TERM",
+      "cr829_graduationyear": "GRAD_YEAR",
+      "cr829_homecollege": "HOME_COLLEGE",
+      "cr829_id": "ID",
+      "cr829_major": "MAJOR",
+      "cr829_majortype": "MAJOR_TYPE",
+      "cr829_name": "NAME",
+      "cr829_primaryprogram": "PRIMARY_PROGRAM",
+      "cr829_secondconcentration": "SECOND_CONCENTRATION",
+      "cr829_studentlevel": "STUDENT_LEVEL",
+      "cr829_thirdconcentration": "THIRD_CONCENTRATION",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "CAMD Alumni",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "CAMD Alumni (Views)",
+    "Name": "_cr829_camdalumni_views",
+    "RelatedEntityName": "CAMD Alumni",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "019d03dd-36c0-43a6-a6e7-59ba5d68fbb8": "Active CAMD Alumni",
+      "2190f5fc-55d0-4ac8-8686-27a74b9fd7c7": "CAMD Alumni Advanced Find View",
+      "355d9f99-1456-4c11-91f2-0cdbf8f6030a": "CAMD Alumni Lookup View",
+      "9afe4403-d036-45e7-82b3-069ba209108b": "Inactive CAMD Alumni",
+      "9da14246-05fe-41f1-a110-74ac6818bbed": "CAMD Alumni Associated View"
+    }
+  },
+  {
+    "DisplayName": "DEGREE (CAMD Alumni)",
+    "Name": "cr829_camdalumni_cr829_degree",
+    "OptionSetInfoNameMapping": {
+      "0": "BA",
+      "1": "BS",
+      "10": "BLA",
+      "11": "CERT",
+      "12": "BSENVE",
+      "13": "BSME",
+      "14": "BSEE",
+      "15": "BSCE",
+      "16": "BSCMPE",
+      "2": "MA",
+      "3": "CERTG",
+      "4": "BFA",
+      "5": "MARCH",
+      "6": "MFA",
+      "7": "BSBA",
+      "8": "MS",
+      "9": "MDES"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "cr829_degree",
+        "OptionSetReferenceEntityName": "CAMD Alumni"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "cr829_degree",
+    "RelatedEntityName": "CAMD Alumni",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "MAJOR_TYPE (CAMD Alumni)",
+    "Name": "cr829_camdalumni_cr829_majortype",
+    "OptionSetInfoNameMapping": {
+      "0": "First",
+      "1": "Second"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "cr829_majortype",
+        "OptionSetReferenceEntityName": "CAMD Alumni"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "cr829_majortype",
+    "RelatedEntityName": "CAMD Alumni",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "STUDENT_LEVEL (CAMD Alumni)",
+    "Name": "cr829_camdalumni_cr829_studentlevel",
+    "OptionSetInfoNameMapping": {
+      "0": "UG",
+      "1": "UP",
+      "2": "GR",
+      "3": "GP",
+      "4": "UC",
+      "5": "US"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "cr829_studentlevel",
+        "OptionSetReferenceEntityName": "CAMD Alumni"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "cr829_studentlevel",
+    "RelatedEntityName": "CAMD Alumni",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (CAMD Alumni)",
+    "Name": "cr829_camdalumni_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "CAMD Alumni"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "CAMD Alumni",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (CAMD Alumni)",
+    "Name": "cr829_camdalumni_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "CAMD Alumni"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "CAMD Alumni",
+    "Type": "OptionSetInfo"
+  }
+]
