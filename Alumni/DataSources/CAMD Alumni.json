@@ -6,6 +6,7 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "cr829_camdalumni",
+    "MaxGetRowsCount": 500,
     "Name": "CAMD Alumni",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",
